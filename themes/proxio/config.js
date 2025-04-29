@@ -3,18 +3,18 @@
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+    PROXIO_WELCOME_TEXT: 'Welcom to :deciduous_tree:Oakk\'s Space:deciduous_tree:, click to ENTER.\n :smile:Have a nice Day!:ice_cream:', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-    PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+    PROXIO_HERO_TITLE_1: 'I am a physics researcher who is intersted in everything!:sunglasses: and a open-source supporter.', // 英雄区文字
+    PROXIO_HERO_TITLE_2: 'Condesed matter theory, mathematic, numerical methods, Rust, Game:video_game:, Sketching, Hamonica:musical_note:, basketball:basketball:, boxing. Everything in this world makes me excited!', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: 'Introduction', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
-        'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+        '', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_URL: '', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
     // 英雄区配图，如需隐藏，改为空值即可 ''
@@ -24,9 +24,9 @@ const CONFIG = {
 
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-    PROXIO_BLOG_TITLE: '作品',
+    PROXIO_BLOG_TITLE: 'Projects',
     PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
-    PROXIO_BLOG_TEXT_1: '我的最新动态',
+    PROXIO_BLOG_TEXT_1: 'My newest articles',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
     PROXIO_BLOG_PLACEHOLDER_IMG_URL_1: '', // 填写要替换成的图片，支持图床或直接上传到项目中，示例  /images/feature-1.webp
@@ -39,21 +39,21 @@ const CONFIG = {
 
     // 特性区块
     PROXIO_FEATURE_ENABLE: true, // 特性区块开关
-    PROXIO_FEATURE_TITLE: '为什么选我',
-    PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
+    PROXIO_FEATURE_TITLE: 'What can I do for you',
+    PROXIO_FEATURE_TEXT_1: 'Learn with ME!',
     PROXIO_FEATURE_TEXT_2:
-        '丰富的案例经验，专业的技术服务，优质的沟通效率',
+        'I keep learn everythin I like.\n And everything is open-source!',
 
     // 特性1
     PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
     PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
-    PROXIO_FEATURE_1_TITLE_1: '高效工作流程',
-    PROXIO_FEATURE_1_TEXT_1: '精简的设计流程确保快速交付，在紧迫的工期下仍能保证品质与细节不打折扣。',
+    PROXIO_FEATURE_1_TITLE_1: 'Free tutorials',
+    PROXIO_FEATURE_1_TEXT_1: 'I whill upload my process of learning in YouTube and BiliBili freely.',
 
     PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
     PROXIO_FEATURE_2_ICON_IMG_URL: '', 
-    PROXIO_FEATURE_2_TITLE_1: '协作式流程',
-    PROXIO_FEATURE_2_TEXT_1: '与你紧密合作，融合反馈意见，打造超越预期的设计',
+    PROXIO_FEATURE_2_TITLE_1: 'Online Notes',
+    PROXIO_FEATURE_2_TEXT_1: 'My notes will be uploaded',
 
     PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
     PROXIO_FEATURE_2_ICON_IMG_URL: '',
@@ -77,7 +77,7 @@ const CONFIG = {
     ],
 
     // 首页用户测评区块
-    PROXIO_TESTIMONIALS_ENABLE: true, // 测评区块开关
+    PROXIO_TESTIMONIALS_ENABLE: false, // 测评区块开关
     PROXIO_TESTIMONIALS_TITLE: '用户反馈',
     PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
     PROXIO_TESTIMONIALS_TEXT_2:
@@ -85,7 +85,7 @@ const CONFIG = {
 
     // 用户测评处的跳转按钮
     PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
-    PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
+    PROXIO_TESTIMONIALS_BUTTON_TEXT: 'connet Me',
 
     // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
     PROXIO_TESTIMONIALS_ITEMS: [
@@ -145,7 +145,7 @@ const CONFIG = {
     ],
 
     //   FAQ 常见问题模块
-    PROXIO_FAQ_ENABLE: true, // 常见问题模块开关
+    PROXIO_FAQ_ENABLE: false, // 常见问题模块开关
     PROXIO_FAQ_TITLE: '常见问题解答',
     PROXIO_FAQ_TEXT_1: '有任何问题吗？请看这里',
     PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
@@ -158,30 +158,28 @@ const CONFIG = {
 
     // 关于作者区块
     PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-    PROXIO_ABOUT_TITLE: '关于作者',
-    PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+    PROXIO_ABOUT_TITLE: 'About Oakk',
+    PROXIO_ABOUT_TEXT_1: 'I am an physics researcher about condensed matter theory and algorithm.',
     PROXIO_ABOUT_TEXT_2:
-        'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
+        '',
     PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
-    PROXIO_ABOUT_KEY_1: '经验年限',
-    PROXIO_ABOUT_VAL_1: '10年+',
-    PROXIO_ABOUT_KEY_2: '客户',
-    PROXIO_ABOUT_VAL_2: '1000+',
-    PROXIO_ABOUT_KEY_3: '交付项目',
-    PROXIO_ABOUT_VAL_3: '5000+',
-    PROXIO_ABOUT_KEY_4: '累积创作时长（小时）',
-    PROXIO_ABOUT_VAL_4: '10000+',
+    PROXIO_ABOUT_KEY_1: '',
+    PROXIO_ABOUT_VAL_1: '',
+    PROXIO_ABOUT_KEY_2: '',
+    PROXIO_ABOUT_VAL_2: '',
+
 
     PROXIO_ABOUT_BUTTON_URL: '/about',
-    PROXIO_ABOUT_BUTTON_TEXT: '关于我',
+    PROXIO_ABOUT_BUTTON_TEXT: 'About Me',
 
-    // 横向滚动文字
+    // 横向滚动文字Condesed matter theory, mathematic, numerical methods, Rust, Game:video_game:, Sketching, Hamonica:musical_note:, basketball:basketball:, boxing
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
     PROXIO_BRANDS: [
-        'Web Design',
-        'Logo Design',
-        'Mobile App Design',
-        'Product Design'
+        'Condesed matter theory',
+        'Math',
+        'Rust',
+        'Game:video_game:',
+        'MaRGAY'
     ],
 
     PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
@@ -190,7 +188,7 @@ const CONFIG = {
     // 页脚菜单
     PROXIO_FOOTER_LINKS: [
         {
-            name: '友情链接',
+            name: 'Links',
             menus: [
                 {
                     title: 'Tangly的学习笔记',
@@ -237,9 +235,9 @@ const CONFIG = {
     PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
     // 404页面的提示语
-    PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
+    PROXIO_404_TITLE: '404 NOT FOUND!',
     PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
-    PROXIO_404_BACK: '回到主页',
+    PROXIO_404_BACK: 'Back to Home page.',
 
     // 页面底部的行动呼吁模块
     PROXIO_CTA_ENABLE: true,
