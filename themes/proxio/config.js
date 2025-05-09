@@ -3,12 +3,12 @@
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: 'Welcom to :deciduous_tree:Oakk\'s Space:deciduous_tree:, click to ENTER.\n :smile:Have a nice Day!:ice_cream:', // 欢迎文字，留空则不启用
+    PROXIO_WELCOME_TEXT: 'Welcom to Oakk\'s Space, click to ENTER.\n Have a nice Day!', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: 'I am a physics researcher who is intersted in everything!:sunglasses: and a open-source supporter.', // 英雄区文字
-    PROXIO_HERO_TITLE_2: 'Condesed matter theory, mathematic, numerical methods, Rust, Game:video_game:, Sketching, Hamonica:musical_note:, basketball:basketball:, boxing. Everything in this world makes me excited!', // 英雄区文字
+    PROXIO_HERO_TITLE_1: 'I am a physics researcher who is intersted in everything! \nAnd also a open-source supporter.', // 英雄区文字
+    PROXIO_HERO_TITLE_2: 'Condesed matter theory, mathematic, numerical methods, Rust, Game, Sketching, Hamonica, basketball, boxing. Everything in this world makes me excited!', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: 'Introduction', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
